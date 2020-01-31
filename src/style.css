@@ -1,0 +1,41 @@
+#sms77react .sms77react--chars {
+    bottom: .5em;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: .5em;
+}
+
+#sms77react ul:empty {
+    display: none;
+}
+
+#sms77react li {
+    background-color: lightpink;
+}
+
+#sms77react form {
+    max-width: 400px;
+}
+
+#sms77react textarea {
+    font-size: 18px;
+    line-height: 20px;
+    height: 100px;
+    padding: 0 0 0 0;
+}
+
+#sms77react button {
+    font-weight: bold;
+    padding: 1px 0 1px 0;
+    width: 100%;
+}
+
+#sms77react button[type='submit'] {
+    background-color: #00D46A;
+}
+
+#sms77react button[type='button'] {
+    background-color: red;
+}
