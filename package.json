@@ -20,6 +20,7 @@
         "@testing-library/user-event": "^8.1.0",
         "@types/jest": "^25.1.1",
         "@types/node": "^12.12.6",
+        "@types/smshelper": "^0.1.0",
         "@types/react": "^16.9.19",
         "@types/react-dom": "^16.9.5",
         "@types/webscopeio__react-textarea-autocomplete": "^2.3.1",

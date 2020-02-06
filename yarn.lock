@@ -1503,6 +1503,11 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
+"@types/smshelper@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@types/smshelper/-/smshelper-0.1.0.tgz#48b6116d34fc95806d8e8b6eb1e869ac07df0ad7"
+  integrity sha512-31ON4LX5W5xXXn5jQBlE/tc79d/f3yuIrjS6GvA63RPVvFvpiXVkH9JQdyoHI0zAMZgoMkm7cblNkhUFhgfpNw==
+
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
