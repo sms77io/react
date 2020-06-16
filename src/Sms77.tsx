@@ -22,7 +22,7 @@ export type AppState = { [P in keyof AppProps]?: AppProps[P] } & {
 const API_KEY_REQUIRED = 'You must set an API key in order to send SMS.';
 const TO_REQUIRED = 'You must specify a recipient in order to send SMS.';
 
-export default class App extends Component<AppProps, AppState> {
+export default class Sms77 extends Component<AppProps, AppState> {
     state = {
         apiKey: this.props.apiKey || '',
         charCount: 0,
@@ -75,7 +75,7 @@ export default class App extends Component<AppProps, AppState> {
             if (errors.length) {
                 this.setState({errors: [...this.state.errors, ...errors]});
             } else {
-                await new Sms77Client(apiKey as string).sms({to: to as string, text});
+                await new Sms77Client(apiKey as string, 'react').sms({to: to as string, text});
 
                 this.textarea!.value = '';
 

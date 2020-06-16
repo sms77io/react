@@ -3,5 +3,7 @@
 /public
 /config
 /scripts
+/.idea
+
 .gitignore
 tsconfig.json
