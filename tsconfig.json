@@ -24,7 +24,7 @@
     ],
     "exclude": [
         "src/index.tsx",
-        "src/App.test.tsx",
+        "src/Sms77.test.tsx",
         "src/setupTests.ts"
     ]
 }

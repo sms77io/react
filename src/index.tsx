@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './style.css';
-import App from './App';
+import Sms77 from './Sms77';
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<Sms77/>, document.getElementById('root'));
