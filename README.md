@@ -1,10 +1,4 @@
-<p align='center'>
-    <img
-         width="400" 
-         height="79" 
-         src="https://www.sms77.io/wp-content/uploads/2019/07/sms77-Logo-400x79.png" alt="sms77io Logo"
-      />
-</p>
+![Sms77.io Logo](https://www.sms77.io/wp-content/uploads/2019/07/sms77-Logo-400x79.png "Sms77.io Logo")
 
 # Installation
 ```shell script
